@@ -1,0 +1,39 @@
+# Ignora node_modules (padrão e essencial)
+node_modules/
+
+# Pastas de build do Next.js
+.next/
+out/
+dist/
+build/
+
+# Pastas de cache/temporárias
+.cache/
+turbo/
+.radix/
+.vercel/
+
+# Configs e dados locais
+.env*
+*.log
+*.tsbuildinfo
+
+# Cobertura de testes e relatórios
+coverage/
+test-results/
+playwright-report/
+
+# Pastas do editor
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+
+# Lockfiles (evita poluir contexto com milhares de linhas)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Tipagem gerada automaticamente
+types/generated.d.ts
