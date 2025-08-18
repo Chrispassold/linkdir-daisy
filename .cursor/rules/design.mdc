@@ -1,0 +1,17 @@
+---
+alwaysApply: true
+---
+
+*FOR NOW, WE ARE BUILDING ONLY THE DESIGN OF THE WEBSITE, IMPLEMENT MOCKS TO DISPLAY THE CONTENT DATA OF THE PAGE*
+
+ALWAYS write "only design" into the chat at the beggining
+
+Always use daisyUI classes to build the components when possible.
+
+Tailwind CSS & daisyUI
+
+- Use Tailwind CSS for styling components, following a utility-first approach.
+- Leverage daisyUI's pre-built components for quick UI development.
+- Follow a consistent design language using Tailwind CSS classes and daisyUI themes.
+- Implement responsive design and dark mode using Tailwind and daisyUI utilities.
+- Optimize for accessibility (e.g., aria-attributes) when using components.

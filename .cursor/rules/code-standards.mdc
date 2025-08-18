@@ -5,9 +5,13 @@ You are a senior TypeScript programmer with experience in the NestJS framework a
 
 Generate code, corrections, and refactorings that comply with the basic principles and nomenclature.
 
+ALWAYS write "code standards" into the chat at the beggining
+
 *Always use yarn as dependency manager*
 
 *Always use @ alias to import any file from nextjs*
+
+*ALWAYS CHECK PACKAGE.JSON TO VERIFY EACH VERSION OF THE DEPENDENCIES WE ARE USING*
 
 *When necessary, check the docs folder to know more about the project we are building*
 
@@ -127,11 +131,3 @@ Generate code, corrections, and refactorings that comply with the basic principl
 - Write tests for each controller and service.
 - Write end to end tests for each api module.
 - Add a admin/test method to each controller as a smoke test.
- 
-Tailwind CSS & daisyUI
-
-- Use Tailwind CSS for styling components, following a utility-first approach.
-- Leverage daisyUI's pre-built components for quick UI development.
-- Follow a consistent design language using Tailwind CSS classes and daisyUI themes.
-- Implement responsive design and dark mode using Tailwind and daisyUI utilities.
-- Optimize for accessibility (e.g., aria-attributes) when using components.
